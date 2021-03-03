@@ -1,10 +1,9 @@
 <?php
-echo "assssssssssssssssssssssd";
 $con=mysqli_connect("localhost","root","","jose");
-if ($con){
+/*if ($con){
     echo "conectado";
 } else {
 
     echo "errr";
-}
+}*/
 ?>
