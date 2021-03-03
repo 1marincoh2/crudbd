@@ -14,8 +14,8 @@
     $lastname=$_GET['txtlastname'];
     $firstname=$_GET['txtfirstname'];
     if ($lastname !=null || $firstname !=null){
-        $sql="insert into person(LastName,FirstName)values('".$lastname."','".$firstname."')";
-        mysqli_query($sql);
+        $sql="insert into Persons(LastName,FirstName)values('".$lastname."','".$firstname."')";
+        mysqli_query($con,$sql);
         if ($lastname=1){
             header("location:index.php");
        }
